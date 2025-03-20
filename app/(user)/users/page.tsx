@@ -18,7 +18,7 @@ export default function Users() {
 
     return (
         <div className="place-self-center"> 
-            Hellow User {type} World
+            Hellow User {type} World Yehey
             <div>
                 <Button variant={'default'} size={"lg"} onClick={() => toUser()}> To User</Button>
                 <Button variant={'destructive'} size={"lg"} onClick={() => alert('hello guys')}> To User alert</Button>
